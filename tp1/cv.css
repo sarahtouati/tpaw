@@ -1,4 +1,32 @@
-body{
-    font-family :calibri, serif;
-    font-size: 20px;
+td
+{
+    border: 2px solid black;
+    
+}
+table {
+    border-collapse: collaspse;
+    width: 100%;
+    background-color: white;
+
+}
+img { 
+    width: 3em;
+    height: 3em;
+
+}
+#titre_principal
+{
+    text-align: center;
+
+}
+body
+{
+    background-color: gray;
+}
+a:hover{
+    color: orange;
+    
+}
+img:hover{
+    transform:scale(2);
 }
