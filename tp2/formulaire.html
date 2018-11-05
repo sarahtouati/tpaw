@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>saisie d'une fiche "personne"</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="formulaire.css">
+        <script  type="text/javascript" src="formulaire.js" ></script>
+    </head>
+    <body>
+        <h1>fiche de saisie"personne"</h1>
+       
+        <form method="post" action="traitement.php">
+            <div>
+            <label for="Nom">Nom</label>
+            <input type="text" name="Name" id="Name">
+        </div><br><br>
+
+
+        <div>
+            <label for="Prénom"> Prénom</label>
+            <input type="text" name="Prénom" id="Prénom">
+        </div>
+            
+            <br><br>
+
+            <div>
+            <label for="Date de naissance"> Date de naissance</label>
+            <input type="date" name="Date de naissance" id="Date de naissance">
+        </div>
+            <br><br>
+
+        <div>
+            <label for="Adresse"> Adresse</label>
+            <input type="text" name="Adresse" id="Adresse">
+        </div>
+            
+            <br><br>
+        <div>
+            <label for="Mail"> Mail</label>
+            <input type="text" name="Mail" id="Mail">
+        </div>
+            <br><br>
+        <div>
+            <input type="button" value="Valider" onclick="validation()">
+        </div>
+        </form> 
+        <div id="error" hidden> </div> 
+        <div id="resultat" hidden > </div> 
+   
+    </body>
+</html>
