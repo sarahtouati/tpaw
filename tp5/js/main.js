@@ -82,7 +82,7 @@ window.onload = function () {
                 this.cityWeatherLoading = true;
 
                 // appel AJAX avec fetch
-                fetch('http://api.openweathermap.org/data/2.5/weather?q='+_city.name+'&units=metric&lang=fr&apikey=7f0d94dfd62cdcffcb4b8a9b2619c1aa')
+                fetch('https://api.openweathermap.org/data/2.5/weather?q='+_city.name+'&units=metric&lang=fr&apikey=7f0d94dfd62cdcffcb4b8a9b2619c1aa')
                
                     .then(function(response) {
                         return response.json();
